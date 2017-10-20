@@ -1,0 +1,67 @@
+.content {
+  width: 810px;
+  margin: 0 auto;
+}
+
+.hotelItem {
+  padding: 10px;
+  float: left;
+
+  .hotelCover {
+    width: 250px;
+    height: 250px;
+    background-size: cover !important;
+    position: relative;
+  }
+
+  .hotelInfo {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+  }
+}
+
+.searchSection {
+  float: left;
+}
+
+.sortSection {
+  float: right;
+}
+
+.filterSection {
+  overflow: hidden;
+  padding: 15px;
+  margin: 20px 10px;
+  background: #f2f2f2;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #bcc3ce;
+}
+
+.btn {
+  background: #d2d4d8;
+  padding: 6px 10px;
+  line-height: 1;
+  font-size: 15px;
+  color: #494b52;
+  cursor: pointer;
+}
+
+.searchBtn {
+  @extend .btn;
+  float: right;
+  margin-left: 10px;
+}
+
+.sortIcon {
+  float: right;
+  margin-left: 10px;
+}

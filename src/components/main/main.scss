@@ -1,0 +1,24 @@
+/* Define some variables we might want to use elsewhere */
+:root {
+  --fg: #0b2296;
+}
+
+/* Implictly local.  .hello will get transformed into a hashed class in
+our React code, so that we could also use .hello in conjunction with another
+component without the two clashing */
+.logoSection {
+  padding: 10px 40px 20px;
+  text-align: center;
+
+  .logo {
+    width: 25px;
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+  .logoTitle {
+    font-family: 'Droid Serif', serif;
+    vertical-align: middle;
+    font-size: 25px;
+
+  }
+}
